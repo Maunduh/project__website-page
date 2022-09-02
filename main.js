@@ -5,3 +5,6 @@ menu.addEventListener('click' ,function (){
     menu.classList.toggle('active');
 
 });
+btn.addEventListener("click", function(event) {
+    document.getElementById("event").innerHTML = "form submited successfully";
+  });
