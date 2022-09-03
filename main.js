@@ -7,5 +7,5 @@ menu.addEventListener('click' ,function (){
 });
 
 const btn = document.querySelector('.btn').addEventListener('click', function(){
-    alert("form submitted")
+    alert("form submitted successfully")
 })
